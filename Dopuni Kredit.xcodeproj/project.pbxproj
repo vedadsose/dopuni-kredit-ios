@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96780CC11E0DDF7E0076E57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CC01E0DDF7E0076E57F /* AppDelegate.swift */; };
+		96780CC31E0DDF7E0076E57F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CC21E0DDF7E0076E57F /* ViewController.swift */; };
+		96780CC61E0DDF7E0076E57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96780CC41E0DDF7E0076E57F /* Main.storyboard */; };
+		96780CC81E0DDF7E0076E57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96780CC71E0DDF7E0076E57F /* Assets.xcassets */; };
+		96780CCB1E0DDF7E0076E57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96780CC91E0DDF7E0076E57F /* LaunchScreen.storyboard */; };
+		96780CD61E0DDF7F0076E57F /* Dopuni_KreditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CD51E0DDF7F0076E57F /* Dopuni_KreditTests.swift */; };
+		96780CE11E0DDF7F0076E57F /* Dopuni_KreditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CE01E0DDF7F0076E57F /* Dopuni_KreditUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96780CD21E0DDF7F0076E57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96780CB51E0DDF7E0076E57F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96780CBC1E0DDF7E0076E57F;
+			remoteInfo = "Dopuni Kredit";
+		};
+		96780CDD1E0DDF7F0076E57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96780CB51E0DDF7E0076E57F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96780CBC1E0DDF7E0076E57F;
+			remoteInfo = "Dopuni Kredit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96780CBD1E0DDF7E0076E57F /* Dopuni Kredit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dopuni Kredit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96780CC01E0DDF7E0076E57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96780CC21E0DDF7E0076E57F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96780CC51E0DDF7E0076E57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96780CC71E0DDF7E0076E57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96780CCA1E0DDF7E0076E57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96780CCC1E0DDF7E0076E57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96780CD11E0DDF7F0076E57F /* Dopuni KreditTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dopuni KreditTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96780CD51E0DDF7F0076E57F /* Dopuni_KreditTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dopuni_KreditTests.swift; sourceTree = "<group>"; };
+		96780CD71E0DDF7F0076E57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96780CDC1E0DDF7F0076E57F /* Dopuni KreditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dopuni KreditUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96780CE01E0DDF7F0076E57F /* Dopuni_KreditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dopuni_KreditUITests.swift; sourceTree = "<group>"; };
+		96780CE21E0DDF7F0076E57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96780CBA1E0DDF7E0076E57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96780CCE1E0DDF7F0076E57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96780CD91E0DDF7F0076E57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96780CB41E0DDF7E0076E57F = {
+			isa = PBXGroup;
+			children = (
+				96780CBF1E0DDF7E0076E57F /* Dopuni Kredit */,
+				96780CD41E0DDF7F0076E57F /* Dopuni KreditTests */,
+				96780CDF1E0DDF7F0076E57F /* Dopuni KreditUITests */,
+				96780CBE1E0DDF7E0076E57F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96780CBE1E0DDF7E0076E57F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96780CBD1E0DDF7E0076E57F /* Dopuni Kredit.app */,
+				96780CD11E0DDF7F0076E57F /* Dopuni KreditTests.xctest */,
+				96780CDC1E0DDF7F0076E57F /* Dopuni KreditUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96780CBF1E0DDF7E0076E57F /* Dopuni Kredit */ = {
+			isa = PBXGroup;
+			children = (
+				96780CC01E0DDF7E0076E57F /* AppDelegate.swift */,
+				96780CC21E0DDF7E0076E57F /* ViewController.swift */,
+				96780CC41E0DDF7E0076E57F /* Main.storyboard */,
+				96780CC71E0DDF7E0076E57F /* Assets.xcassets */,
+				96780CC91E0DDF7E0076E57F /* LaunchScreen.storyboard */,
+				96780CCC1E0DDF7E0076E57F /* Info.plist */,
+			);
+			path = "Dopuni Kredit";
+			sourceTree = "<group>";
+		};
+		96780CD41E0DDF7F0076E57F /* Dopuni KreditTests */ = {
+			isa = PBXGroup;
+			children = (
+				96780CD51E0DDF7F0076E57F /* Dopuni_KreditTests.swift */,
+				96780CD71E0DDF7F0076E57F /* Info.plist */,
+			);
+			path = "Dopuni KreditTests";
+			sourceTree = "<group>";
+		};
+		96780CDF1E0DDF7F0076E57F /* Dopuni KreditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96780CE01E0DDF7F0076E57F /* Dopuni_KreditUITests.swift */,
+				96780CE21E0DDF7F0076E57F /* Info.plist */,
+			);
+			path = "Dopuni KreditUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96780CBC1E0DDF7E0076E57F /* Dopuni Kredit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96780CE51E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni Kredit" */;
+			buildPhases = (
+				96780CB91E0DDF7E0076E57F /* Sources */,
+				96780CBA1E0DDF7E0076E57F /* Frameworks */,
+				96780CBB1E0DDF7E0076E57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dopuni Kredit";
+			productName = "Dopuni Kredit";
+			productReference = 96780CBD1E0DDF7E0076E57F /* Dopuni Kredit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96780CD01E0DDF7F0076E57F /* Dopuni KreditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96780CE81E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni KreditTests" */;
+			buildPhases = (
+				96780CCD1E0DDF7F0076E57F /* Sources */,
+				96780CCE1E0DDF7F0076E57F /* Frameworks */,
+				96780CCF1E0DDF7F0076E57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96780CD31E0DDF7F0076E57F /* PBXTargetDependency */,
+			);
+			name = "Dopuni KreditTests";
+			productName = "Dopuni KreditTests";
+			productReference = 96780CD11E0DDF7F0076E57F /* Dopuni KreditTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96780CDB1E0DDF7F0076E57F /* Dopuni KreditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96780CEB1E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni KreditUITests" */;
+			buildPhases = (
+				96780CD81E0DDF7F0076E57F /* Sources */,
+				96780CD91E0DDF7F0076E57F /* Frameworks */,
+				96780CDA1E0DDF7F0076E57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96780CDE1E0DDF7F0076E57F /* PBXTargetDependency */,
+			);
+			name = "Dopuni KreditUITests";
+			productName = "Dopuni KreditUITests";
+			productReference = 96780CDC1E0DDF7F0076E57F /* Dopuni KreditUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96780CB51E0DDF7E0076E57F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Vedad Sose";
+				TargetAttributes = {
+					96780CBC1E0DDF7E0076E57F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 466TX8933G;
+						ProvisioningStyle = Automatic;
+					};
+					96780CD01E0DDF7F0076E57F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 466TX8933G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96780CBC1E0DDF7E0076E57F;
+					};
+					96780CDB1E0DDF7F0076E57F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 466TX8933G;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96780CBC1E0DDF7E0076E57F;
+					};
+				};
+			};
+			buildConfigurationList = 96780CB81E0DDF7E0076E57F /* Build configuration list for PBXProject "Dopuni Kredit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96780CB41E0DDF7E0076E57F;
+			productRefGroup = 96780CBE1E0DDF7E0076E57F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96780CBC1E0DDF7E0076E57F /* Dopuni Kredit */,
+				96780CD01E0DDF7F0076E57F /* Dopuni KreditTests */,
+				96780CDB1E0DDF7F0076E57F /* Dopuni KreditUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96780CBB1E0DDF7E0076E57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96780CCB1E0DDF7E0076E57F /* LaunchScreen.storyboard in Resources */,
+				96780CC81E0DDF7E0076E57F /* Assets.xcassets in Resources */,
+				96780CC61E0DDF7E0076E57F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96780CCF1E0DDF7F0076E57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96780CDA1E0DDF7F0076E57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96780CB91E0DDF7E0076E57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96780CC31E0DDF7E0076E57F /* ViewController.swift in Sources */,
+				96780CC11E0DDF7E0076E57F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96780CCD1E0DDF7F0076E57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96780CD61E0DDF7F0076E57F /* Dopuni_KreditTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96780CD81E0DDF7F0076E57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96780CE11E0DDF7F0076E57F /* Dopuni_KreditUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96780CD31E0DDF7F0076E57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96780CBC1E0DDF7E0076E57F /* Dopuni Kredit */;
+			targetProxy = 96780CD21E0DDF7F0076E57F /* PBXContainerItemProxy */;
+		};
+		96780CDE1E0DDF7F0076E57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96780CBC1E0DDF7E0076E57F /* Dopuni Kredit */;
+			targetProxy = 96780CDD1E0DDF7F0076E57F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96780CC41E0DDF7E0076E57F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96780CC51E0DDF7E0076E57F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96780CC91E0DDF7E0076E57F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96780CCA1E0DDF7E0076E57F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96780CE31E0DDF7F0076E57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96780CE41E0DDF7F0076E57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96780CE61E0DDF7F0076E57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 466TX8933G;
+				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-Kredit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		96780CE71E0DDF7F0076E57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 466TX8933G;
+				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-Kredit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		96780CE91E0DDF7F0076E57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 466TX8933G;
+				INFOPLIST_FILE = "Dopuni KreditTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-KreditTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dopuni Kredit.app/Dopuni Kredit";
+			};
+			name = Debug;
+		};
+		96780CEA1E0DDF7F0076E57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 466TX8933G;
+				INFOPLIST_FILE = "Dopuni KreditTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-KreditTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dopuni Kredit.app/Dopuni Kredit";
+			};
+			name = Release;
+		};
+		96780CEC1E0DDF7F0076E57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 466TX8933G;
+				INFOPLIST_FILE = "Dopuni KreditUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-KreditUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dopuni Kredit";
+			};
+			name = Debug;
+		};
+		96780CED1E0DDF7F0076E57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 466TX8933G;
+				INFOPLIST_FILE = "Dopuni KreditUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-KreditUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Dopuni Kredit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96780CB81E0DDF7E0076E57F /* Build configuration list for PBXProject "Dopuni Kredit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96780CE31E0DDF7F0076E57F /* Debug */,
+				96780CE41E0DDF7F0076E57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96780CE51E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni Kredit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96780CE61E0DDF7F0076E57F /* Debug */,
+				96780CE71E0DDF7F0076E57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96780CE81E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni KreditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96780CE91E0DDF7F0076E57F /* Debug */,
+				96780CEA1E0DDF7F0076E57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96780CEB1E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni KreditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96780CEC1E0DDF7F0076E57F /* Debug */,
+				96780CED1E0DDF7F0076E57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96780CB51E0DDF7E0076E57F /* Project object */;
+}
