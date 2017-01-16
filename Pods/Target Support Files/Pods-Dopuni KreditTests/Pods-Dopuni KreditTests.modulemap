@@ -1,0 +1,6 @@
+framework module Pods_Dopuni_KreditTests {
+  umbrella header "Pods-Dopuni KreditTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

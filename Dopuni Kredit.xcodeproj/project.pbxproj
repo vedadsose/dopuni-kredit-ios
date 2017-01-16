@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		754E88F80B160B8E5138B3CD /* Pods_Dopuni_KreditUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6687E45628DD05872FFF9F32 /* Pods_Dopuni_KreditUITests.framework */; };
 		96780CC11E0DDF7E0076E57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CC01E0DDF7E0076E57F /* AppDelegate.swift */; };
 		96780CC31E0DDF7E0076E57F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CC21E0DDF7E0076E57F /* ViewController.swift */; };
 		96780CC61E0DDF7E0076E57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96780CC41E0DDF7E0076E57F /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		96780CCB1E0DDF7E0076E57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96780CC91E0DDF7E0076E57F /* LaunchScreen.storyboard */; };
 		96780CD61E0DDF7F0076E57F /* Dopuni_KreditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CD51E0DDF7F0076E57F /* Dopuni_KreditTests.swift */; };
 		96780CE11E0DDF7F0076E57F /* Dopuni_KreditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CE01E0DDF7F0076E57F /* Dopuni_KreditUITests.swift */; };
+		96780CEF1E0EBBF80076E57F /* MonthYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CEE1E0EBBF80076E57F /* MonthYearPicker.swift */; };
+		96780CF11E0EBC7C0076E57F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CF01E0EBC7C0076E57F /* SettingsTableViewController.swift */; };
+		D8E46334EA2B64A350D432BC /* Pods_Dopuni_KreditTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC415D1561547B5C37430BCE /* Pods_Dopuni_KreditTests.framework */; };
+		FAB19614CC7788FB20FFD032 /* Pods_Dopuni_Kredit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DECE670855DF6B5DE2C28D /* Pods_Dopuni_Kredit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CD9E3D502E2D4BDB8246A85 /* Pods-Dopuni KreditUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni KreditUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni KreditUITests/Pods-Dopuni KreditUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B9C553CD8042A6E05B2F9E5 /* Pods-Dopuni KreditTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni KreditTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni KreditTests/Pods-Dopuni KreditTests.release.xcconfig"; sourceTree = "<group>"; };
+		6687E45628DD05872FFF9F32 /* Pods_Dopuni_KreditUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dopuni_KreditUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A300B2277048C1F4187D986 /* Pods-Dopuni KreditUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni KreditUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni KreditUITests/Pods-Dopuni KreditUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B500FA27D8DEF6EC8C9C3BA /* Pods-Dopuni Kredit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni Kredit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni Kredit/Pods-Dopuni Kredit.release.xcconfig"; sourceTree = "<group>"; };
 		96780CBD1E0DDF7E0076E57F /* Dopuni Kredit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dopuni Kredit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96780CC01E0DDF7E0076E57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96780CC21E0DDF7E0076E57F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,13 @@
 		96780CDC1E0DDF7F0076E57F /* Dopuni KreditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dopuni KreditUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96780CE01E0DDF7F0076E57F /* Dopuni_KreditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dopuni_KreditUITests.swift; sourceTree = "<group>"; };
 		96780CE21E0DDF7F0076E57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96780CEE1E0EBBF80076E57F /* MonthYearPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPicker.swift; sourceTree = "<group>"; };
+		96780CF01E0EBC7C0076E57F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		96780CF21E0ED8F30076E57F /* Dopuni Kredit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dopuni Kredit.entitlements"; sourceTree = "<group>"; };
+		BC415D1561547B5C37430BCE /* Pods_Dopuni_KreditTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dopuni_KreditTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5749696EF48B7FAA2E18E10 /* Pods-Dopuni KreditTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni KreditTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni KreditTests/Pods-Dopuni KreditTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8DECE670855DF6B5DE2C28D /* Pods_Dopuni_Kredit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dopuni_Kredit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD700D31AA6EFC72A719BCB /* Pods-Dopuni Kredit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni Kredit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni Kredit/Pods-Dopuni Kredit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB19614CC7788FB20FFD032 /* Pods_Dopuni_Kredit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E46334EA2B64A350D432BC /* Pods_Dopuni_KreditTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754E88F80B160B8E5138B3CD /* Pods_Dopuni_KreditUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +101,8 @@
 				96780CD41E0DDF7F0076E57F /* Dopuni KreditTests */,
 				96780CDF1E0DDF7F0076E57F /* Dopuni KreditUITests */,
 				96780CBE1E0DDF7E0076E57F /* Products */,
+				FE58BB759E99C5ECD0322351 /* Pods */,
+				A8D3E8923EE7EB517E3C3CF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +119,11 @@
 		96780CBF1E0DDF7E0076E57F /* Dopuni Kredit */ = {
 			isa = PBXGroup;
 			children = (
+				96780CF21E0ED8F30076E57F /* Dopuni Kredit.entitlements */,
 				96780CC01E0DDF7E0076E57F /* AppDelegate.swift */,
 				96780CC21E0DDF7E0076E57F /* ViewController.swift */,
+				96780CF01E0EBC7C0076E57F /* SettingsTableViewController.swift */,
+				96780CEE1E0EBBF80076E57F /* MonthYearPicker.swift */,
 				96780CC41E0DDF7E0076E57F /* Main.storyboard */,
 				96780CC71E0DDF7E0076E57F /* Assets.xcassets */,
 				96780CC91E0DDF7E0076E57F /* LaunchScreen.storyboard */,
@@ -125,6 +150,29 @@
 			path = "Dopuni KreditUITests";
 			sourceTree = "<group>";
 		};
+		A8D3E8923EE7EB517E3C3CF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8DECE670855DF6B5DE2C28D /* Pods_Dopuni_Kredit.framework */,
+				BC415D1561547B5C37430BCE /* Pods_Dopuni_KreditTests.framework */,
+				6687E45628DD05872FFF9F32 /* Pods_Dopuni_KreditUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE58BB759E99C5ECD0322351 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFD700D31AA6EFC72A719BCB /* Pods-Dopuni Kredit.debug.xcconfig */,
+				8B500FA27D8DEF6EC8C9C3BA /* Pods-Dopuni Kredit.release.xcconfig */,
+				C5749696EF48B7FAA2E18E10 /* Pods-Dopuni KreditTests.debug.xcconfig */,
+				5B9C553CD8042A6E05B2F9E5 /* Pods-Dopuni KreditTests.release.xcconfig */,
+				1CD9E3D502E2D4BDB8246A85 /* Pods-Dopuni KreditUITests.debug.xcconfig */,
+				7A300B2277048C1F4187D986 /* Pods-Dopuni KreditUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96780CE51E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni Kredit" */;
 			buildPhases = (
+				4F6B24E81820BB843FD013D0 /* [CP] Check Pods Manifest.lock */,
 				96780CB91E0DDF7E0076E57F /* Sources */,
 				96780CBA1E0DDF7E0076E57F /* Frameworks */,
 				96780CBB1E0DDF7E0076E57F /* Resources */,
+				D241E92224FC8B8E3B6F1FA6 /* [CP] Embed Pods Frameworks */,
+				BAE49CAB00F326219D1B3E50 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96780CE81E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni KreditTests" */;
 			buildPhases = (
+				89D16C7FC6931C48A02FF1E5 /* [CP] Check Pods Manifest.lock */,
 				96780CCD1E0DDF7F0076E57F /* Sources */,
 				96780CCE1E0DDF7F0076E57F /* Frameworks */,
 				96780CCF1E0DDF7F0076E57F /* Resources */,
+				F0D916AD6CF11BDA991E85BC /* [CP] Embed Pods Frameworks */,
+				B759158CDEC7071CBE5E7161 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96780CEB1E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni KreditUITests" */;
 			buildPhases = (
+				B9BF82E2FC8753F20102B78A /* [CP] Check Pods Manifest.lock */,
 				96780CD81E0DDF7F0076E57F /* Sources */,
 				96780CD91E0DDF7F0076E57F /* Frameworks */,
 				96780CDA1E0DDF7F0076E57F /* Resources */,
+				EBD3171E31441FE136D6AEF3 /* [CP] Embed Pods Frameworks */,
+				289750C9C8B477C2E83CBB9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +252,11 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 466TX8933G;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					96780CD01E0DDF7F0076E57F = {
 						CreatedOnToolsVersion = 8.1;
@@ -257,11 +319,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		289750C9C8B477C2E83CBB9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dopuni KreditUITests/Pods-Dopuni KreditUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F6B24E81820BB843FD013D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89D16C7FC6931C48A02FF1E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B759158CDEC7071CBE5E7161 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dopuni KreditTests/Pods-Dopuni KreditTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BF82E2FC8753F20102B78A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE49CAB00F326219D1B3E50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dopuni Kredit/Pods-Dopuni Kredit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D241E92224FC8B8E3B6F1FA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dopuni Kredit/Pods-Dopuni Kredit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD3171E31441FE136D6AEF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dopuni KreditUITests/Pods-Dopuni KreditUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D916AD6CF11BDA991E85BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dopuni KreditTests/Pods-Dopuni KreditTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96780CB91E0DDF7E0076E57F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96780CF11E0EBC7C0076E57F /* SettingsTableViewController.swift in Sources */,
+				96780CEF1E0EBBF80076E57F /* MonthYearPicker.swift in Sources */,
 				96780CC31E0DDF7E0076E57F /* ViewController.swift in Sources */,
 				96780CC11E0DDF7E0076E57F /* AppDelegate.swift in Sources */,
 			);
@@ -413,10 +615,13 @@
 		};
 		96780CE61E0DDF7F0076E57F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD700D31AA6EFC72A719BCB /* Pods-Dopuni Kredit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Dopuni Kredit/Dopuni Kredit.entitlements";
 				DEVELOPMENT_TEAM = 466TX8933G;
 				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-Kredit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +631,13 @@
 		};
 		96780CE71E0DDF7F0076E57F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B500FA27D8DEF6EC8C9C3BA /* Pods-Dopuni Kredit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Dopuni Kredit/Dopuni Kredit.entitlements";
 				DEVELOPMENT_TEAM = 466TX8933G;
 				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-Kredit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +647,7 @@
 		};
 		96780CE91E0DDF7F0076E57F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5749696EF48B7FAA2E18E10 /* Pods-Dopuni KreditTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +663,7 @@
 		};
 		96780CEA1E0DDF7F0076E57F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B9C553CD8042A6E05B2F9E5 /* Pods-Dopuni KreditTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +679,7 @@
 		};
 		96780CEC1E0DDF7F0076E57F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD9E3D502E2D4BDB8246A85 /* Pods-Dopuni KreditUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 466TX8933G;
@@ -483,6 +694,7 @@
 		};
 		96780CED1E0DDF7F0076E57F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A300B2277048C1F4187D986 /* Pods-Dopuni KreditUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 466TX8933G;
@@ -514,6 +726,7 @@
 				96780CE71E0DDF7F0076E57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96780CE81E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni KreditTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +735,7 @@
 				96780CEA1E0DDF7F0076E57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96780CEB1E0DDF7F0076E57F /* Build configuration list for PBXNativeTarget "Dopuni KreditUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +744,7 @@
 				96780CED1E0DDF7F0076E57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
