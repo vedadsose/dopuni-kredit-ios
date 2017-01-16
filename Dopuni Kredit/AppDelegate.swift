@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SwiftyBeaver
+let log = SwiftyBeaver.self
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
+    
+    let cloud = SBPlatformDestination(appID: "lRP1ab", appSecret: "qe32rjv4ufBsklajsv5bqFsTdfphi5Ma", encryptionKey: "Xw2m85tsZpkqvEae8tahsngmvtKinRe8")
+    log.addDestination(cloud)
+    
     return true
   }
 

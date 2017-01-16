@@ -20,7 +20,7 @@ class ViewController: UIViewController {
 
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-    
+        
     // Determine what to show
     var setUp = false
     if let _ = keychain.get("phoneNumber") {

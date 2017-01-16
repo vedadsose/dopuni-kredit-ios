@@ -8,6 +8,7 @@ target 'Dopuni Kredit' do
   # Pods for Dopuni Kredit
   pod 'Alamofire', '~> 4.0'
   pod 'KeychainSwift', '~> 7.0'
+  pod 'SwiftyBeaver'
 
   target 'Dopuni KreditTests' do
     inherit! :search_paths
