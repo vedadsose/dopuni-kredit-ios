@@ -250,7 +250,7 @@
 				TargetAttributes = {
 					96780CBC1E0DDF7E0076E57F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 466TX8933G;
+						DevelopmentTeam = T4T9SW737C;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -619,7 +619,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Dopuni Kredit/Dopuni Kredit.entitlements";
-				DEVELOPMENT_TEAM = 466TX8933G;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T4T9SW737C;
 				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -635,7 +636,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Dopuni Kredit/Dopuni Kredit.entitlements";
-				DEVELOPMENT_TEAM = 466TX8933G;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T4T9SW737C;
 				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
