@@ -260,13 +260,13 @@
 					};
 					96780CD01E0DDF7F0076E57F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 466TX8933G;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = T4T9SW737C;
+						ProvisioningStyle = Manual;
 						TestTargetID = 96780CBC1E0DDF7E0076E57F;
 					};
 					96780CDB1E0DDF7F0076E57F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 466TX8933G;
+						DevelopmentTeam = T4T9SW737C;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 96780CBC1E0DDF7E0076E57F;
 					};
@@ -657,7 +657,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 466TX8933G;
+				DEVELOPMENT_TEAM = T4T9SW737C;
 				INFOPLIST_FILE = "Dopuni KreditTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-KreditTests";
@@ -673,7 +673,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 466TX8933G;
+				DEVELOPMENT_TEAM = T4T9SW737C;
 				INFOPLIST_FILE = "Dopuni KreditTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-KreditTests";
@@ -688,7 +688,8 @@
 			baseConfigurationReference = 1CD9E3D502E2D4BDB8246A85 /* Pods-Dopuni KreditUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 466TX8933G;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T4T9SW737C;
 				INFOPLIST_FILE = "Dopuni KreditUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-KreditUITests";
@@ -703,7 +704,8 @@
 			baseConfigurationReference = 7A300B2277048C1F4187D986 /* Pods-Dopuni KreditUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = 466TX8933G;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T4T9SW737C;
 				INFOPLIST_FILE = "Dopuni KreditUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-KreditUITests";
