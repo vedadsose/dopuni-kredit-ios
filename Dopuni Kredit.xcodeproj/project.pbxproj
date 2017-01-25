@@ -251,7 +251,7 @@
 					96780CBC1E0DDF7E0076E57F = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = T4T9SW737C;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.Keychain = {
 								enabled = 1;
@@ -626,6 +626,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vedadsose.dopuni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "81ea1768-5870-433b-9869-af20cfb4f3de";
+				PROVISIONING_PROFILE_SPECIFIER = "Dopuna Development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -643,6 +645,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vedadsose.dopuni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "81ea1768-5870-433b-9869-af20cfb4f3de";
+				PROVISIONING_PROFILE_SPECIFIER = "Dopuna Development";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
