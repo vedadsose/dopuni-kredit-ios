@@ -623,7 +623,7 @@
 				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-Kredit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedadsose.dopuni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -639,7 +639,7 @@
 				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vedadsose.Dopuni-Kredit";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vedadsose.dopuni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
