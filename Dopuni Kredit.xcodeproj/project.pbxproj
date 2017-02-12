@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0617FB6E21BFB6331DEE73 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90178EBAAF10C8DA6E98E396 /* SystemConfiguration.framework */; };
+		1990A7A937AED416723CCB8C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CDDE766E239D1DFF03DC9C /* AssetsLibrary.framework */; };
+		31964E395C4E242C83B42C95 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DABEA6658834BC51D52DC9CB /* CoreTelephony.framework */; };
+		5F93110AA70822EEE0A4582C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A18DDCE8B390AD90B93197 /* CoreText.framework */; };
+		613D87B03CE8382F3A826DAD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BBCD3BCA47093620A06141 /* AVFoundation.framework */; };
+		787E4433BF4250189DA24D0E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7416D61DB18E10DDF5BBC57D /* QuartzCore.framework */; };
+		7C1DA181BE7050EE9AC2C130 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651812606C84EA57F0FB1892 /* BuddyBuildSDK.framework */; };
 		96780CC11E0DDF7E0076E57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CC01E0DDF7E0076E57F /* AppDelegate.swift */; };
 		96780CC31E0DDF7E0076E57F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CC21E0DDF7E0076E57F /* ViewController.swift */; };
 		96780CC61E0DDF7E0076E57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96780CC41E0DDF7E0076E57F /* Main.storyboard */; };
@@ -14,15 +21,23 @@
 		96780CCB1E0DDF7E0076E57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96780CC91E0DDF7E0076E57F /* LaunchScreen.storyboard */; };
 		96780CEF1E0EBBF80076E57F /* MonthYearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CEE1E0EBBF80076E57F /* MonthYearPicker.swift */; };
 		96780CF11E0EBC7C0076E57F /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96780CF01E0EBC7C0076E57F /* SettingsTableViewController.swift */; };
+		B40A00EB8869044F23CB6CC7 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C0404CFDEC43D4A925D46B /* CoreVideo.framework */; };
+		BC79DD715F247B57B8FF5DF4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE02F1C85245F704DE0CBC3 /* CoreMedia.framework */; };
 		FAB19614CC7788FB20FFD032 /* Pods_Dopuni_Kredit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DECE670855DF6B5DE2C28D /* Pods_Dopuni_Kredit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17A18DDCE8B390AD90B93197 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		1CD9E3D502E2D4BDB8246A85 /* Pods-Dopuni KreditUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni KreditUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni KreditUITests/Pods-Dopuni KreditUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		59C0404CFDEC43D4A925D46B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		5B9C553CD8042A6E05B2F9E5 /* Pods-Dopuni KreditTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni KreditTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni KreditTests/Pods-Dopuni KreditTests.release.xcconfig"; sourceTree = "<group>"; };
+		651812606C84EA57F0FB1892 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		6687E45628DD05872FFF9F32 /* Pods_Dopuni_KreditUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dopuni_KreditUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE02F1C85245F704DE0CBC3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		7416D61DB18E10DDF5BBC57D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		7A300B2277048C1F4187D986 /* Pods-Dopuni KreditUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni KreditUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni KreditUITests/Pods-Dopuni KreditUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8B500FA27D8DEF6EC8C9C3BA /* Pods-Dopuni Kredit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni Kredit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni Kredit/Pods-Dopuni Kredit.release.xcconfig"; sourceTree = "<group>"; };
+		90178EBAAF10C8DA6E98E396 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		96780CBD1E0DDF7E0076E57F /* Dopuni Kredit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dopuni Kredit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96780CC01E0DDF7E0076E57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96780CC21E0DDF7E0076E57F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,8 +52,12 @@
 		96780CEE1E0EBBF80076E57F /* MonthYearPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPicker.swift; sourceTree = "<group>"; };
 		96780CF01E0EBC7C0076E57F /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		96780CF21E0ED8F30076E57F /* Dopuni Kredit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Dopuni Kredit.entitlements"; sourceTree = "<group>"; };
+		97CDDE766E239D1DFF03DC9C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		BC415D1561547B5C37430BCE /* Pods_Dopuni_KreditTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dopuni_KreditTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2BBCD3BCA47093620A06141 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C5749696EF48B7FAA2E18E10 /* Pods-Dopuni KreditTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni KreditTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni KreditTests/Pods-Dopuni KreditTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D666F5496791EBB96ACBAAD5 /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		DABEA6658834BC51D52DC9CB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		F8DECE670855DF6B5DE2C28D /* Pods_Dopuni_Kredit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dopuni_Kredit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD700D31AA6EFC72A719BCB /* Pods-Dopuni Kredit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dopuni Kredit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dopuni Kredit/Pods-Dopuni Kredit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +68,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAB19614CC7788FB20FFD032 /* Pods_Dopuni_Kredit.framework in Frameworks */,
+				7C1DA181BE7050EE9AC2C130 /* BuddyBuildSDK.framework in Frameworks */,
+				1990A7A937AED416723CCB8C /* AssetsLibrary.framework in Frameworks */,
+				5F93110AA70822EEE0A4582C /* CoreText.framework in Frameworks */,
+				31964E395C4E242C83B42C95 /* CoreTelephony.framework in Frameworks */,
+				0A0617FB6E21BFB6331DEE73 /* SystemConfiguration.framework in Frameworks */,
+				787E4433BF4250189DA24D0E /* QuartzCore.framework in Frameworks */,
+				613D87B03CE8382F3A826DAD /* AVFoundation.framework in Frameworks */,
+				BC79DD715F247B57B8FF5DF4 /* CoreMedia.framework in Frameworks */,
+				B40A00EB8869044F23CB6CC7 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +92,7 @@
 				96780CBE1E0DDF7E0076E57F /* Products */,
 				FE58BB759E99C5ECD0322351 /* Pods */,
 				A8D3E8923EE7EB517E3C3CF3 /* Frameworks */,
+				D666F5496791EBB96ACBAAD5 /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +144,15 @@
 				F8DECE670855DF6B5DE2C28D /* Pods_Dopuni_Kredit.framework */,
 				BC415D1561547B5C37430BCE /* Pods_Dopuni_KreditTests.framework */,
 				6687E45628DD05872FFF9F32 /* Pods_Dopuni_KreditUITests.framework */,
+				651812606C84EA57F0FB1892 /* BuddyBuildSDK.framework */,
+				97CDDE766E239D1DFF03DC9C /* AssetsLibrary.framework */,
+				17A18DDCE8B390AD90B93197 /* CoreText.framework */,
+				DABEA6658834BC51D52DC9CB /* CoreTelephony.framework */,
+				90178EBAAF10C8DA6E98E396 /* SystemConfiguration.framework */,
+				7416D61DB18E10DDF5BBC57D /* QuartzCore.framework */,
+				C2BBCD3BCA47093620A06141 /* AVFoundation.framework */,
+				6CE02F1C85245F704DE0CBC3 /* CoreMedia.framework */,
+				59C0404CFDEC43D4A925D46B /* CoreVideo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -391,6 +429,10 @@
 				CODE_SIGN_ENTITLEMENTS = "Dopuni Kredit/Dopuni Kredit.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FQVLZPDVK9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -398,6 +440,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -410,6 +453,10 @@
 				CODE_SIGN_ENTITLEMENTS = "Dopuni Kredit/Dopuni Kredit.entitlements";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FQVLZPDVK9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Dopuni Kredit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -417,6 +464,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    BuddyBuildSDK.setup()
+    
     
     let cloud = SBPlatformDestination(appID: "lRP1ab", appSecret: "qe32rjv4ufBsklajsv5bqFsTdfphi5Ma", encryptionKey: "Xw2m85tsZpkqvEae8tahsngmvtKinRe8")
     log.addDestination(cloud)
